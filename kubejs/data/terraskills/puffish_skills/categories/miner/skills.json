@@ -1,0 +1,303 @@
+{
+  "miner_1": {
+    "x": 0,
+    "y": 80,
+    "definition": "miner_1",
+    "root": true
+  },
+  "miner_2": {
+    "x": 0,
+    "y": 40,
+    "definition": "miner_2"
+  },
+  "miner_3": {
+    "x": 0,
+    "y": 0,
+    "definition": "miner_3"
+  },
+  "miner_4": {
+    "x": 0,
+    "y": -40,
+    "definition": "miner_4"
+  },
+  "miner_5": {
+    "x": 0,
+    "y": -80,
+    "definition": "miner_5"
+  },
+  "careful_excavation_1": {
+    "x": -100,
+    "y": 80,
+    "definition": "careful_excavation_1"
+  },
+  "careful_excavation_2": {
+    "x": -100,
+    "y": 40,
+    "definition": "careful_excavation_2"
+  },
+  "careful_excavation_3": {
+    "x": -100,
+    "y": 0,
+    "definition": "careful_excavation_3"
+  },
+  "careful_excavation_4": {
+    "x": -100,
+    "y": -40,
+    "definition": "careful_excavation_4"
+  },
+  "careful_excavation_5": {
+    "x": -100,
+    "y": -80,
+    "definition": "careful_excavation_5"
+  },
+  "mine_safety_1": {
+    "x": 100,
+    "y": 80,
+    "definition": "mine_safety_1"
+  },
+  "mine_safety_2": {
+    "x": 100,
+    "y": 40,
+    "definition": "mine_safety_2"
+  },
+  "mine_safety_3": {
+    "x": 100,
+    "y": 0,
+    "definition": "mine_safety_3"
+  },
+  "mine_safety_4": {
+    "x": 100,
+    "y": -40,
+    "definition": "mine_safety_4"
+  },
+  "mine_safety_5": {
+    "x": 100,
+    "y": -80,
+    "definition": "mine_safety_5"
+  },
+  "careful_mining_1": {
+    "x": -200,
+    "y": 80,
+    "definition": "careful_mining_1"
+  },
+  "careful_mining_2": {
+    "x": -200,
+    "y": 40,
+    "definition": "careful_mining_2"
+  },
+  "careful_mining_3": {
+    "x": -200,
+    "y": 0,
+    "definition": "careful_mining_3"
+  },
+  "careful_mining_4": {
+    "x": -200,
+    "y": -40,
+    "definition": "careful_mining_4"
+  },
+  "careful_mining_5": {
+    "x": -200,
+    "y": -80,
+    "definition": "careful_mining_5"
+  },
+  "support_assessment_1": {
+    "x": 200,
+    "y": 80,
+    "definition": "support_assessment_1"
+  },
+  "support_assessment_2": {
+    "x": 200,
+    "y": 40,
+    "definition": "support_assessment_2"
+  },
+  "support_assessment_3": {
+    "x": 200,
+    "y": 0,
+    "definition": "support_assessment_3"
+  },
+  "support_assessment_4": {
+    "x": 200,
+    "y": -40,
+    "definition": "support_assessment_4"
+  },
+  "support_assessment_5": {
+    "x": 200,
+    "y": -80,
+    "definition": "support_assessment_5"
+  },
+  "deep_mining_1": {
+    "x": 300,
+    "y": 80,
+    "definition": "deep_mining_1"
+  },
+  "deep_mining_2": {
+    "x": 300,
+    "y": 40,
+    "definition": "deep_mining_2"
+  },
+  "deep_mining_3": {
+    "x": 300,
+    "y": 0,
+    "definition": "deep_mining_3"
+  },
+  "deep_mining_4": {
+    "x": 300,
+    "y": -40,
+    "definition": "deep_mining_4"
+  },
+  "deep_mining_5": {
+    "x": 300,
+    "y": -80,
+    "definition": "deep_mining_5"
+  },
+  "stone_mining_1": {
+    "x": 400,
+    "y": 80,
+    "definition": "stone_mining_1"
+  },
+  "stone_mining_2": {
+    "x": 400,
+    "y": 40,
+    "definition": "stone_mining_2"
+  },
+  "stone_mining_3": {
+    "x": 400,
+    "y": 0,
+    "definition": "stone_mining_3"
+  },
+  "stone_mining_4": {
+    "x": 400,
+    "y": -40,
+    "definition": "stone_mining_4"
+  },
+  "stone_mining_5": {
+    "x": 400,
+    "y": -80,
+    "definition": "stone_mining_5"
+  },
+  "excavating_1": {
+    "x": 500,
+    "y": 80,
+    "definition": "excavating_1"
+  },
+  "excavating_2": {
+    "x": 500,
+    "y": 40,
+    "definition": "excavating_2"
+  },
+  "excavating_3": {
+    "x": 500,
+    "y": 0,
+    "definition": "excavating_3"
+  },
+  "excavating_4": {
+    "x": 500,
+    "y": -40,
+    "definition": "excavating_4"
+  },
+  "excavating_5": {
+    "x": 500,
+    "y": -80,
+    "definition": "excavating_5"
+  },
+  "careful_eye_1": {
+    "x": 600,
+    "y": 80,
+    "definition": "careful_eye_1"
+  },
+  "careful_eye_2": {
+    "x": 600,
+    "y": 40,
+    "definition": "careful_eye_2"
+  },
+  "careful_eye_3": {
+    "x": 600,
+    "y": 0,
+    "definition": "careful_eye_3"
+  },
+  "careful_eye_4": {
+    "x": 600,
+    "y": -40,
+    "definition": "careful_eye_4"
+  },
+  "careful_eye_5": {
+    "x": 600,
+    "y": -80,
+    "definition": "careful_eye_5"
+  },
+  "tool_conservation_1": {
+    "x": 700,
+    "y": 80,
+    "definition": "tool_conservation_1"
+  },
+  "tool_conservation_2": {
+    "x": 700,
+    "y": 40,
+    "definition": "tool_conservation_2"
+  },
+  "tool_conservation_3": {
+    "x": 700,
+    "y": 0,
+    "definition": "tool_conservation_3"
+  },
+  "tool_conservation_4": {
+    "x": 700,
+    "y": -40,
+    "definition": "tool_conservation_4"
+  },
+  "tool_conservation_5": {
+    "x": 700,
+    "y": -80,
+    "definition": "tool_conservation_5"
+  },
+  "brutish_mining_1": {
+    "x": 800,
+    "y": 80,
+    "definition": "brutish_mining_1"
+  },
+  "brutish_mining_2": {
+    "x": 800,
+    "y": 40,
+    "definition": "brutish_mining_2"
+  },
+  "brutish_mining_3": {
+    "x": 800,
+    "y": 0,
+    "definition": "brutish_mining_3"
+  },
+  "brutish_mining_4": {
+    "x": 800,
+    "y": -40,
+    "definition": "brutish_mining_4"
+  },
+  "brutish_mining_5": {
+    "x": 800,
+    "y": -80,
+    "definition": "brutish_mining_5"
+  },
+  "hazard_management_1": {
+    "x": 900,
+    "y": 80,
+    "definition": "hazard_management_1"
+  },
+  "hazard_management_2": {
+    "x": 900,
+    "y": 40,
+    "definition": "hazard_management_2"
+  },
+  "hazard_management_3": {
+    "x": 900,
+    "y": 0,
+    "definition": "hazard_management_3"
+  },
+  "hazard_management_4": {
+    "x": 900,
+    "y": -40,
+    "definition": "hazard_management_4"
+  },
+  "hazard_management_5": {
+    "x": 900,
+    "y": -80,
+    "definition": "hazard_management_5"
+  }
+}

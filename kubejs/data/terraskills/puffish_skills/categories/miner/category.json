@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "Extraction & Reprocessing",
+  "description": "Learn deliberate extraction, precise excavation and safe work in deep workings. Nutrition fuels your research.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "tfc:metal/pickaxe/copper"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+}
