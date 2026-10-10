@@ -2156,14 +2156,6 @@ file = "mods/create-connected.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-design-n-decor.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-encased.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-jei-compat.pw.toml"
 metafile = true
 
@@ -2201,10 +2193,6 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create_factory_logistics.pw.toml"
 metafile = true
 
 [[files]]
@@ -2524,10 +2512,6 @@ file = "mods/mod-terraworld.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/modern-ui.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
@@ -2577,10 +2561,6 @@ metafile = true
 
 [[files]]
 file = "mods/perma-death.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/petrolpark-library.pw.toml"
 metafile = true
 
 [[files]]
