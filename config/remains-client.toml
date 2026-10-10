@@ -1,0 +1,23 @@
+#Names over bodies, the way a player's name is drawn over them.
+[names]
+	#Whether a body's name is drawn over it at all.
+	enabled = false
+	#How close, in blocks, you have to be to read it.
+	# Default: 12.0
+	# Range: 1.0 ~ 64.0
+	distance = 12.0
+
+#What you see and hear round a body.
+[ambience]
+	#Flies over bodies that still have flesh on them. Only drawn for you.
+	flies = true
+
+#Short how-to lines over the hotbar, each shown once.
+[hints]
+	#Whether they are shown: how to search, drag, hang and nail a body.
+	enabled = false
+
+#The fights with the six who rule.
+[bosses]
+	#Whether the camera shakes a little when a heavy blow lands near you.
+	camera_shake = false

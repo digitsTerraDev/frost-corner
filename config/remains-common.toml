@@ -1,0 +1,208 @@
+#Bodies placed by world generation.
+[worldgen]
+	#Whether this mod places any bodies in the world at all.
+	#Off leaves the block, the command and the data pack hooks working.
+	enabled = false
+	#Whether world generation also makes the bodies and places of elves and orcs:
+	#their camps, graves and crosses, and the orcs among the battlefield dead.
+	#Off, only humans and human places are generated, unless the world says otherwise
+	#(the new-world screen's button, /gamerule remainsOtherPeoples). On, every world has them.
+	other_peoples = false
+	#How much of what the data pack asks for actually gets placed.
+	#1.0 is as written, 0.5 is half as many, 2.0 is twice - anything over 1
+	#can only place what the data pack already tried to place.
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	density = 1.0
+
+#What a player can do with a body.
+[handling]
+	#Whether a body can be searched by hand, one thing per click.
+	#Off makes every body scenery and nothing drops from searching.
+	searchable = true
+	#Whether the editor opens in survival as well as creative.
+	#Meant for build servers. On, anybody can restyle and dress any body.
+	survival_editor = true
+	#Whether going through a body that has started to rot can turn a
+	#player's stomach: a little hunger, and now and then nausea.
+	sickness = true
+	#Whether a body on the ground can be taken hold of and dragged:
+	#crouch and use an empty hand on it, use a hand again to let go.
+	dragging = true
+	#How much dragging a body slows a player down. 1.0 is as designed -
+	#about half speed for a man with nothing on, more for an orc in armour,
+	#less for bones. 0 does not slow them at all, 2 is twice as heavy.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	drag_slowdown = 1.0
+	#How far, in blocks, a body can get from the player dragging it
+	#(caught on something, or fallen down a hole) before it is let go.
+	# Default: 2.5
+	# Range: 1.0 ~ 8.0
+	drag_reach = 2.5
+
+#A player's own body. Whoever dies leaves one - drawn in their own skin, marked by
+#what killed them - with everything they had on it: every slot of their inventory
+#and whatever other mods dropped with them (Curios, backpacks, ...).
+[player_corpses]
+	#Whether players leave a body. "auto": yes, unless another grave or corpse mod
+	#is installed (Corpse, Gravestone, Tombstone, YIGD, ...), which then does the job alone;
+	#"on": always, even beside one - two graves for one death; "off": never, things drop the plain way.
+	enabled = "auto"
+	#Whether only the player who died (and creative players) may open their body.
+	#Off, anybody can go through it - the way it goes on a PvP server.
+	owner_only = false
+	#Whether the experience a player would have dropped is kept in the body
+	#and given back to them when they open it, instead of lying about as orbs.
+	keep_experience = true
+
+#Creatures built like a man - zombies, skeletons, piglins and whatever #remains:ragdoll adds -
+#leaving a body the way the peoples do, with what they dropped on it. Nothing else does.
+[mob_corpses]
+	#Real minutes a creature's body lies before it is gone.
+	#Whatever is still on it then is left on the ground.
+	# Default: 10.0
+	# Range: 0.5 ~ 1440.0
+	minutes = 10.0
+	#Whether creatures not built like a man leave something too: animals and spiders lying on
+	#their side (#remains:lies_on_side), and what is left of a blaze, a ghast, a slime, a phantom, a warden.
+	#Off by default. When off, each world can still turn it on: /gamerule remainsAnimalBodies true.
+	non_humanoid_bodies = false
+	#Real seconds of sunlight it takes a body that burns in the sun (a zombie, a skeleton -
+	##remains:burns_in_sun) to go up in smoke, ash and flame. 0 to turn it off.
+	# Default: 30.0
+	# Range: 0.0 ~ 3600.0
+	sun_burn_seconds = 30.0
+
+#For a weak computer: bodies fall with half the work (the ragdoll settles with fewer rounds), no
+#wound pictures or flies are drawn on them, bodies are drawn only up to 32 blocks away, and creatures'
+#bodies lie half as long.
+[performance]
+	#Whether the light mode is on.
+	light_mode = true
+
+#Mob farms. Where things die over and over in the same place - a kill chamber, a
+#lava blade, a grinder with a player standing at it - nothing is left lying:
+#whatever would have become a body drops its things the plain way instead.
+#Every death anywhere is counted; the count of a place fades with time.
+[farms]
+	#Whether places are watched for being farms at all.
+	enabled = true
+	#How much death a place has to see, in weighted deaths, before it counts
+	#as a farm. Each death adds its weight below; the total fades by half every
+	#half_life_minutes. Lower finds farms sooner, and risks calling a battle one.
+	# Default: 24.0
+	# Range: 1.0 ~ 1000.0
+	threshold = 24.0
+	#Real minutes for the count of a place to fade by half.
+	# Default: 5.0
+	# Range: 0.1 ~ 1440.0
+	half_life_minutes = 5.0
+	#Real minutes a place stays a farm after the last death there.
+	# Default: 20.0
+	# Range: 0.0 ~ 10080.0
+	remember_minutes = 20.0
+	#How many blocks round a death count as the same place.
+	#Counted in squares of 8, so 8 means the square it died in and the ones next to it.
+	# Default: 8
+	# Range: 0 ~ 32
+	radius = 8
+	#Weight of a death nobody dealt: a fall, lava, fire, drowning, suffocating,
+	#magma, cactus - what the killing floor of a farm does.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	weight_environment = 2.0
+	#Weight of a kill by a player who has not moved since their last kill in the
+	#same place: somebody at the window of a grinder.
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	weight_player_standing = 1.5
+	#Weight of a kill by a player who is moving about: an ordinary fight.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	weight_player_moving = 0.5
+	#Weight of a kill by anything else: a mob, a golem, a wolf, a dispenser.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	weight_other = 1.0
+	#How much more a death counts when what died came out of a spawner.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	spawner_multiplier = 2.0
+	#How much more a death counts when it is within a block and a half of
+	#one of the last few deaths there: things dying on the very same spot.
+	# Default: 1.5
+	# Range: 1.0 ~ 100.0
+	same_spot_multiplier = 1.5
+	#Whether one death by entity cramming makes a place a farm straight away.
+	#Nothing dies of that anywhere else.
+	cramming_is_farm = true
+	#The most bodies left by deaths (not world generation) one chunk may hold.
+	#Past it, what dies there drops its things instead. 0 for no limit.
+	# Default: 24
+	# Range: 0 ~ 4096
+	max_bodies_per_chunk = 24
+	#Whether players near a place are told, once, when it is taken for a farm.
+	announce = true
+
+#Bodies going on rotting where they lie.
+[decay]
+	#Whether bodies left in the world move on through the stages by themselves.
+	#Bodies placed in creative, and bodies the editor marks as kept, never do;
+	#nor does anybody frozen, or lying somewhere cold enough to snow.
+	enabled = true
+	#Real minutes from a death to the end of the body: fresh, bloated, opened, tattered,
+	#bones, each a fifth of it. Counted in world time, so it goes on while nobody is near and the
+	#chunk is not loaded. A Minecraft day is twenty.
+	# Default: 10.0
+	# Range: 1.0 ~ 100000.0
+	minutes = 336.0
+	#What becomes of a body at the end of that time.
+	#"sink": the bones sink into the ground and are gone.
+	#"keep": the bones stay where they lie.
+	#"despawn": no stages at all - the body simply disappears when its time is up.
+	#Bodies the world itself laid out (camps, battlefields, graves) are never taken away, and a player's
+	#body never goes while their things are still on it.
+	end = "keep"
+	#The same for the peoples of Vaskars Opus - elves, orcs, dwarves and the rest - when it is installed.
+	#"keep": they rot down to bones and the bones stay where they fell, so a battle leaves its field.
+	#"same": they end like every other body (the setting above).
+	#"sink" and "despawn": as above, for them alone.
+	opus_end = "keep"
+	#Whether honeycomb, put on a body the way copper is waxed, keeps it as it is: no more rot, no flies.
+	honeycomb = true
+
+#Burying a body with a shovel (or a pickaxe on stone).
+[bury]
+	#Whether a grave mound with a marker is left where the body was. Off, the body is simply gone
+	#and what was on it drops.
+	gravestone = true
+
+#The dead that rise. A body left lying in the open - not buried, hung, nailed up or burnt, not a player's
+#and not one the world laid out - may get up in the dark as a zombie, in what it wore. Bury them.
+[rise]
+	#Whether the dead rise at all.
+	enabled = true
+	#The chance a fresh or bloated body in the dark gets up, per minute it lies there.
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	chance_per_minute = 0.1
+
+#A new player's first steps.
+[start]
+	#Whether a player joining a world for the first time finds a few bodies near them and gets a
+	#lead, an arrow and a short guide to dragging, nailing and hanging bodies.
+	near_bodies = false
+	#Whether that player is also handed the guide: one sheet, with pictures, on what can be done with a body.
+	guide = false
+	#Whether the guide burns up once it has been read. Off, it stays and can be read again.
+	guide_burns = false
+	#Whether that player is also handed a lead and an arrow, to hang and to nail up a body.
+	lead_and_arrow = false
+
+#What you see and hear around a body.
+[ambience]
+	#Crows coming down to bodies that have lain in the open a while; they fly off when anybody comes near.
+	crows = true
+	#Wolves, foxes and zombies stopping to eat at bodies, which rot a stage further for it.
+	scavengers = false
