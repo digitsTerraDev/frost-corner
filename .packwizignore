@@ -6,3 +6,5 @@ devscripts/
 
 #vscode stuff
 .vscode/
+
+/docs

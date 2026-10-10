@@ -1,0 +1,13 @@
+name = "TFC Tobacconist"
+filename = "tfc-tobacconist-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "295d6f81fdc1ce3abf5f21476ad77c3f0c129720"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8849563
+project-id = 1689541
