@@ -2272,6 +2272,10 @@ file = "mods/kaleidoscope-tfc-cookery.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kaleidoscopetavern.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kaleidoscopetfctavern.pw.toml"
 metafile = true
 
