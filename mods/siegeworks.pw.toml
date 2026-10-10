@@ -1,13 +1,13 @@
 name = "Siegeworks"
-filename = "siegeworks-neoforge-0.1.0-beta.8+1.21.1.jar"
+filename = "siegeworks-neoforge-0.1.0-beta.9+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0fb047a1efa592e4d1ccfb219899f50436dc3c38"
+hash = "604582fec88701b23c3fcbab25862993d5ea1822"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9069467
+file-id = 9117076
 project-id = 1713906

@@ -1,0 +1,13 @@
+name = "Overgrown's Origins"
+filename = "origins-1.47.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tYolxBPN/versions/1FOYvYNr/origins-1.47.7.jar"
+hash-format = "sha512"
+hash = "6205d135fd48bad458f73f22028af357afad14093e586053306fb7a0d8e2e20aa3bcd9fa9eb8264e35fe71b6514ced21c8ca3b3db7f37745e99d2102a52bde10"
+
+[update]
+[update.modrinth]
+mod-id = "tYolxBPN"
+version = "1FOYvYNr"

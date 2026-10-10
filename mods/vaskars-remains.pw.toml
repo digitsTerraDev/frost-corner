@@ -1,0 +1,13 @@
+name = "Vaskars Remains - Lootable Corpses & Decay"
+filename = "remains-0.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66d83848abee76b15bf1e1df52fb13f76498a12f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9112949
+project-id = 1708269
