@@ -1,0 +1,33 @@
+[curing]
+	#Minimum ambient Celsius for natural curing. Not the fire temperature.
+	# Default: 5.0
+	# Range: -30.0 ~ 50.0
+	minTemperature = 5.0
+	# Default: 45.0
+	# Range: 0.0 ~ 100.0
+	maxTemperature = 45.0
+	#Maximum TFC average rainfall for natural curing; this is not relative humidity.
+	# Default: 400.0
+	# Range: 0.0 ~ 500.0
+	maxRainfall = 400.0
+	#Minimum temperature of a burning TFC firepit to qualify as a smoke source.
+	# Default: 100.0
+	# Range: 0.0 ~ 1500.0
+	minimumFirepitTemperature = 100.0
+	#Natural wind assists exposed curing; does not multiply powered Create assistance.
+	windAssistance = true
+
+[crops]
+	#Chance of one regional seed when gathering a wild tobacco plant.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	regionalSeedChance = 0.25
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	nitrogen = 0.6
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	phosphorus = 0.15
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	potassium = 0.25

@@ -787,6 +787,12 @@ file = "config/kaleidoscope_cookery-client.toml"
 file = "config/kaleidoscope_cookery-common.toml"
 
 [[files]]
+file = "config/kaleidoscope_tavern-common.toml"
+
+[[files]]
+file = "config/kaleidoscopetfctavern-common.toml"
+
+[[files]]
 file = "config/keymap.json"
 
 [[files]]
@@ -934,6 +940,15 @@ file = "config/origins.json"
 file = "config/patchouli-client.toml"
 
 [[files]]
+file = "config/pehkui-client.toml"
+
+[[files]]
+file = "config/pehkui-common.toml"
+
+[[files]]
+file = "config/pehkui-server.toml"
+
+[[files]]
 file = "config/petrolpark-client.toml"
 
 [[files]]
@@ -1078,6 +1093,9 @@ file = "config/tfc_ie_addon-server.toml"
 file = "config/tfc_real_world/common.toml"
 
 [[files]]
+file = "config/tfc_tobacconist-server.toml"
+
+[[files]]
 file = "config/tfc_toroidal_compat-client.toml"
 
 [[files]]
@@ -1117,6 +1135,9 @@ file = "config/tfchotornot-startup.toml"
 file = "config/tfcmountains-common.toml"
 
 [[files]]
+file = "config/tfcoffsetsmoker-common.toml"
+
+[[files]]
 file = "config/tfcthings-common.toml"
 
 [[files]]
@@ -1145,6 +1166,15 @@ file = "config/tinkerers_smithing.toml"
 
 [[files]]
 file = "config/tinymultiblocklib-client.toml"
+
+[[files]]
+file = "config/tobacconistmod-client.toml"
+
+[[files]]
+file = "config/tobacconistmod-common.toml"
+
+[[files]]
+file = "config/tobacconistmod-server.toml"
 
 [[files]]
 file = "config/toroidal_world.json"
@@ -1423,10 +1453,34 @@ file = "kubejs/assets/terra/textures/block/ore/normal_vitalum.png"
 file = "kubejs/assets/terra/textures/block/ore/normal_vutironium.png"
 
 [[files]]
+file = "kubejs/assets/terra/textures/block/vermilion_fluid.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/dried_flower_shaving.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/flower_shaving.png"
+
+[[files]]
 file = "kubejs/assets/terra/textures/item/hardtack_sandwich.png"
 
 [[files]]
+file = "kubejs/assets/terra/textures/item/horn_powder.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/medicine.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/medicine_base.png"
+
+[[files]]
 file = "kubejs/assets/terra/textures/item/unfired_ceremetal.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/vermilion_base.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/vermilion_crystal.png"
 
 [[files]]
 file = "kubejs/assets/terraindustry/lang/en_us.json"
@@ -1831,6 +1885,9 @@ file = "kubejs/server_scripts/mine_safety.js"
 file = "kubejs/server_scripts/mining_skill_sync.js"
 
 [[files]]
+file = "kubejs/server_scripts/mustache/create.js"
+
+[[files]]
 file = "kubejs/server_scripts/ore_conversions.js"
 
 [[files]]
@@ -1849,10 +1906,52 @@ file = "kubejs/server_scripts/profession/smith/smith_recipe_addon.js"
 file = "kubejs/server_scripts/profession/smith/smith_recipe_unspecialized.js"
 
 [[files]]
+file = "kubejs/server_scripts/yumi/medicine/dried_flower_shaving_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/flower_shaving_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/horn_powder_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/medicine_base_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/medicine_effect.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/medicine_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/vermilion_base_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/vermilion_crystal_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/vermilion_fluid_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/tags/fluid_tag.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/tags/horns_tag.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/tags/reagents_tag.js"
+
+[[files]]
+file = "kubejs/startup_scripts/fluids.js"
+
+[[files]]
 file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/startup_scripts/medicine.js"
 
 [[files]]
 file = "kubejs/startup_scripts/mining_speed.js"
@@ -2412,6 +2511,10 @@ file = "mods/paucal.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pehkui.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/perma-death.pw.toml"
 metafile = true
 
@@ -2616,11 +2719,19 @@ file = "mods/tfc-more-items.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tfc-offset-smoker.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tfc-registry-api.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/tfc-stackable-piles.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tfc-tobacconist.pw.toml"
 metafile = true
 
 [[files]]
@@ -2649,6 +2760,10 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tobacconist.pw.toml"
 metafile = true
 
 [[files]]
