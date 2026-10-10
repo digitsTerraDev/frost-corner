@@ -2512,10 +2512,6 @@ file = "mods/mod-terraworld.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/modern-ui.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
