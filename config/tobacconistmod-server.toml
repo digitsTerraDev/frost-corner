@@ -1,0 +1,38 @@
+[gameplay]
+	#Enable the tobacco quality system: quality scores/tiers and quality-based smoking bonuses.
+	#When false, quality is hidden and ignored for gameplay, but existing quality data is preserved so it can be turned back on later.
+	enableQualitySystem = true
+	#Apply Tobacconist's nicotine status effect when tobacco is smoked.
+	#Disabling this does not disable configured additional smoking effects.
+	enableNicotineEffects = true
+	#Raw tobacco-quality points removed when a Cigarette or Cigar is made by generic crafting automation while Create is installed.
+	#Hand crafting and Tobacconist's dedicated Create Deployer -> Incomplete Product -> Mechanical Press route keep full quality.
+	#The quality system uses an underlying 0-120 scale; the default penalty of 10 is usually about one displayed Product Quality level.
+	#Set to 0 to disable this automation penalty.
+	# Default: 10
+	# Range: 0 ~ 50
+	genericAutomationQualityPenalty = 10
+
+[blending]
+	#Hidden named tobacco blends with exact per-variety requirements.
+	#Format: Display Name=variety|minQuality|cure|flavor+variety|minQuality|cure|flavor[+...]
+	#Quality is a minimum (0-120). Cure: air, fire, sun, flue, or * for any.
+	#Flavor: none, *, or a flavor id such as apple, chorus_fruit, coffee, vanilla, or mint.
+	#Order does not matter. Legacy fonted and variety-only entries remain accepted for migration.
+	#Valid varieties: wild, virginia, burley, oriental, dokha, shade.
+	#The bundled compatibility secrets use generic flavor tags; they become craftable when matching ingredients exist.
+	#Servers can rename, remove, or add entries for their own roleplay/lore.
+	secretBlends = ["The Ninth Bell=virginia|95|flue|none+burley|95|fire|none+shade|90|air|none", "Bosphorus No. 7=oriental|100|sun|none+dokha|95|fire|none+virginia|90|flue|none", "Black Cabinet=burley|100|fire|none+dokha|100|fire|none+wild|95|air|none", "Three Crowns=virginia|100|flue|none+oriental|100|sun|none+shade|100|air|none", "Last Harvest=wild|110|sun|none+virginia|105|flue|none+burley|105|air|none", "Golden Sultana=oriental|100|sun|honey+virginia|95|flue|none+shade|95|air|none", "Orchard Reserve=virginia|100|flue|apple+burley|95|air|none+shade|90|air|honey", "Crown & Ember=virginia|105|flue|goldenapple+burley|100|fire|none+oriental|95|sun|none", "Lamplighter No. 23=burley|95|fire|cocoa+virginia|95|flue|none+shade|90|air|none", "Far End Mixture=dokha|100|fire|chorus_fruit+oriental|95|sun|none+wild|95|air|glowberry", "Vienna Cabinet=burley|100|air|coffee+virginia|95|flue|vanilla+oriental|90|sun|none", "Red Parlor=virginia|100|flue|cherry+burley|95|air|none+shade|95|air|vanilla", "Mint Condition=dokha|100|fire|mint+oriental|95|sun|lime+virginia|90|flue|none", "The Confectioner=burley|100|air|caramel+virginia|95|flue|vanilla+shade|95|air|custard", "Black Orchard=burley|100|fire|blackberry+virginia|95|flue|none+oriental|95|sun|cinnamon", "Silk Road No. 12=oriental|105|sun|tea+dokha|100|fire|none+shade|95|air|hibiscus", "Blue Hour=shade|100|air|lavender+virginia|95|flue|none+oriental|95|sun|tea", "Port Royal=virginia|100|flue|coconut+burley|95|air|caramel+oriental|95|sun|none", "Summer Ledger=virginia|100|flue|strawberry+shade|95|air|raspberry+oriental|90|sun|none", "The Decadent=burley|105|fire|brownie+virginia|100|flue|custard+shade|100|air|vanilla"]
+	#Visual styling for secret blends. Optional per-blend entries override the wildcard fallback.
+	#Format: Blend Name=#RRGGBB|tintStrength|brightnessLift|saturationBoost
+	#Use color 'auto' to derive the hue from the blend's stored varieties/cures/flavors.
+	#Values are 0.0-1.0. Suggested bold-but-still-readable ranges: tint 0.45-0.70, brightness 0.04-0.12, saturation 0.05-0.15.
+	#Example: Last Harvest=#B8A45A|0.65|0.08|0.12
+	#Wildcard example: *=auto|0.58|0.08|0.10
+	#Legacy 3-field entries remain accepted; their third number is treated as brightnessLift.
+	secretBlendVisuals = ["*=auto|0.58|0.08|0.10", "The Ninth Bell=#A87548|0.58|0.07|0.10", "Bosphorus No. 7=#B78348|0.59|0.07|0.11", "Black Cabinet=#79513D|0.62|0.06|0.08", "Three Crowns=#C09455|0.57|0.07|0.10", "Last Harvest=#F0C24A|0.95|0.14|0.28", "Golden Sultana=#D0A84C|0.68|0.10|0.13", "Orchard Reserve=#A78A51|0.58|0.08|0.10", "Crown & Ember=#E35A20|0.96|0.13|0.26", "Lamplighter No. 23=#8D6244|0.60|0.06|0.09", "Far End Mixture=#896A78|0.56|0.07|0.10", "Vienna Cabinet=#8C674C|0.58|0.06|0.09", "Red Parlor=#A46561|0.57|0.07|0.11", "Mint Condition=#46D971|0.94|0.12|0.26", "The Confectioner=#B59168|0.56|0.08|0.10", "Black Orchard=#78545F|0.60|0.06|0.10", "Silk Road No. 12=#A4784F|0.59|0.07|0.10", "Blue Hour=#5E74F1|0.94|0.11|0.28", "Port Royal=#B38B61|0.58|0.08|0.10", "Summer Ledger=#AA6E68|0.57|0.08|0.12", "The Decadent=#765247|0.62|0.06|0.09"]
+	#Built-up bonuses for a small set of legendary secret blends only.
+	#Format: Blend Name=threshold|effect_id,duration,amplifier;effect_id,duration,amplifier
+	#Threshold is the number of puffs/draws before the reward triggers, after which that blend's counter resets.
+	#Example: Crown & Ember=3|minecraft:fire_resistance,180,0;minecraft:strength,120,0
+	secretBlendBonuses = ["Last Harvest=3|minecraft:absorption,160,0;minecraft:luck,200,0", "Crown & Ember=3|minecraft:fire_resistance,180,0;minecraft:strength,120,0", "Mint Condition=3|minecraft:speed,180,0;minecraft:jump_boost,140,0", "Blue Hour=3|minecraft:night_vision,220,0;minecraft:slow_falling,120,0"]
