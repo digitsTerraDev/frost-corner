@@ -6,14 +6,14 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
     "next_entity_drop": true,
-    "energy_storage": true,
     "entity_armor.max_for_render": 20,
+    "energy_storage": true,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -21,8 +21,8 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
-    "waxed": true,
     "harvest_tool.new_line": false,
+    "waxed": true,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
     "mob_spawner": true,
@@ -32,8 +32,8 @@
     "brewing_stand": true,
     "energy_storage.detailed": false,
     "note_block": true,
-    "fluid_storage.style": "PROGRESS_BAR",
     "beehive": true,
+    "fluid_storage.style": "PROGRESS_BAR",
     "item_storage.detailed_amount": 54,
     "player_head": true,
     "lectern": true,
@@ -65,21 +65,8 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
-  "ftbquests": {
-    "barrier": true
-  },
-  "ktfcc": {
-    "decaying": true,
-    "stove": true,
-    "mugwort": true,
-    "tea_tree": true
+  "immersiveengineering": {
+    "multiblock_icon": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -97,6 +84,58 @@
   },
   "kubejs_tfc": {
     "heat_consumer": true
+  },
+  "barebonesbrews": {
+    "cauldron_brewing": true
+  },
+  "tfcoffsetsmoker": {
+    "jade.offset_smoker": true
+  },
+  "fletcherstrestle": {
+    "steam_box": true
+  },
+  "survivorsbutchercraft": {
+    "meat_hook": true
+  },
+  "tfcthings": {
+    "snare": true,
+    "fishing_net_anchor": true,
+    "gem_display": true,
+    "grindstone_base": true,
+    "grain_pile": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
+  },
+  "kaleidoscopetfctavern": {
+    "grape_climate": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "historystages": {
+    "pedestal_booster": true,
+    "locked_entity_item": true,
+    "locked_block": true
+  },
+  "tfcfertigation": {
+    "drip_irrigation_rack_status": true
+  },
+  "ktfcc": {
+    "decaying": true,
+    "stove": true,
+    "mugwort": true,
+    "tea_tree": true
+  },
+  "animalweights": {
+    "animal_condition": true
+  },
+  "balm": {
+    "jade": true
   },
   "firmalife": {
     "barrel_press": true,
@@ -129,10 +168,10 @@
     "bloom": true,
     "frog": true,
     "vane": true,
-    "camel": true,
     "armadillo": true,
-    "sapling": true,
+    "camel": true,
     "rabbit": true,
+    "sapling": true,
     "composter": true,
     "decaying": true,
     "wall_torch": true,
@@ -176,13 +215,10 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
-    "trip_hammer": true,
     "anemometer": true,
+    "trip_hammer": true,
     "wet_concrete": true,
     "ingot_pile": true
-  },
-  "survivorsbutchercraft": {
-    "meat_hook": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -194,12 +230,6 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "farmerstfc": {
-    "decaying": true,
-    "cake": true,
-    "stove": true,
-    "crate": true
-  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
@@ -208,18 +238,15 @@
     "millstone": true,
     "enamel_basin": true
   },
-  "tfcthings": {
-    "snare": true,
-    "fishing_net_anchor": true,
-    "gem_display": true,
-    "grindstone_base": true,
-    "grain_pile": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
-  "astages": {
-    "block_component_provider": true
+  "survivorsdelight": {
+    "feast_decay": true
+  },
+  "petrolpark": {
+    "drying_rack": true,
+    "flags": true
   },
   "firmasupps": {
     "candle_holder": true,
