@@ -58,6 +58,15 @@ file = "config/animaldiets.json"
 file = "config/animalweights.json"
 
 [[files]]
+file = "config/apoli-client.json"
+
+[[files]]
+file = "config/apoli-effects.json"
+
+[[files]]
+file = "config/apoli-scripts.json"
+
+[[files]]
 file = "config/apple_crates_client.toml"
 
 [[files]]
@@ -925,6 +934,12 @@ file = "config/neoforge-server.toml"
 file = "config/neoorigins/content.toml"
 
 [[files]]
+file = "config/nerb/compat/emi.yaml"
+
+[[files]]
+file = "config/nerb/general.yaml"
+
+[[files]]
 file = "config/numismatics-client.toml"
 
 [[files]]
@@ -932,6 +947,9 @@ file = "config/numismatics-common.toml"
 
 [[files]]
 file = "config/numismatics-server.toml"
+
+[[files]]
+file = "config/origins-client.toml"
 
 [[files]]
 file = "config/origins.json"
@@ -985,6 +1003,15 @@ file = "config/reliable_remover.json"
 file = "config/reliable_remover/removal_example.json.disabled"
 
 [[files]]
+file = "config/remains-client.toml"
+
+[[files]]
+file = "config/remains-common.toml"
+
+[[files]]
+file = "config/remains-hints-known.txt"
+
+[[files]]
 file = "config/ritchiesprojectilelib-server.toml"
 
 [[files]]
@@ -998,6 +1025,9 @@ file = "config/siegeworks-client.toml"
 
 [[files]]
 file = "config/siegeworks-server.toml"
+
+[[files]]
+file = "config/skinlayers.json"
 
 [[files]]
 file = "config/sliceanddice-client.toml"
@@ -1184,6 +1214,21 @@ file = "config/transition.json"
 
 [[files]]
 file = "config/trender.json"
+
+[[files]]
+file = "config/vaskars-cta.json"
+
+[[files]]
+file = "config/vaskars-discord.properties"
+
+[[files]]
+file = "config/vaskars-telemetry.firsts"
+
+[[files]]
+file = "config/vaskars-telemetry.id"
+
+[[files]]
+file = "config/vaskars-telemetry.properties"
 
 [[files]]
 file = "config/vintage-client.toml"
@@ -2311,6 +2356,10 @@ file = "mods/immersive-melodies.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-optimization.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immersiveengineering.pw.toml"
 metafile = true
 
@@ -2495,7 +2544,19 @@ file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/numismatics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/opoli.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/overgrowns-origins.pw.toml"
 metafile = true
 
 [[files]]
@@ -2516,6 +2577,10 @@ metafile = true
 
 [[files]]
 file = "mods/perma-death.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/petrolpark-library.pw.toml"
 metafile = true
 
 [[files]]
@@ -2580,6 +2645,10 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -2652,10 +2721,6 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-advanced-drinks.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tfc-ambiental.pw.toml"
 metafile = true
 
 [[files]]
@@ -2780,6 +2845,10 @@ metafile = true
 
 [[files]]
 file = "mods/ui-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vaskars-remains.pw.toml"
 metafile = true
 
 [[files]]
