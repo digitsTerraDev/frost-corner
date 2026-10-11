@@ -22,7 +22,7 @@
 	searchable = true
 	#Whether the editor opens in survival as well as creative.
 	#Meant for build servers. On, anybody can restyle and dress any body.
-	survival_editor = true
+	survival_editor = false
 	#Whether going through a body that has started to rot can turn a
 	#player's stomach: a little hunger, and now and then nausea.
 	sickness = true
@@ -186,7 +186,7 @@
 	#The chance a fresh or bloated body in the dark gets up, per minute it lies there.
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
-	chance_per_minute = 0.1
+	chance_per_minute = 0.2
 
 #A new player's first steps.
 [start]
@@ -206,3 +206,12 @@
 	crows = true
 	#Wolves, foxes and zombies stopping to eat at bodies, which rot a stage further for it.
 	scavengers = false
+
+#Blood outside the body.
+[blood]
+	#Real minutes, on average, a stain of blood - a pool, a splash, a trail - lies before it is gone
+	#by itself. Counted while somebody is near enough for the ground around them to change, as crops grow.
+	#0: it stays until rain washes it away, water runs over it or it is broken.
+	# Default: 10.0
+	# Range: 0.0 ~ 100000.0
+	despawn_minutes = 10.0

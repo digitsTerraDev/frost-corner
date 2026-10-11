@@ -1,40 +1,592 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
 mode = "fancy"
-
 # The chunk rebuild scheduler mode (immediate, culling).
 chunk_rebuild_scheduler = "culling"
 
-[adaptive_ticking]
-	# How far away (in chunks) until light sources get ticked less often.
-	slow = 5
-	# How far away (in chunks) until light sources get ticked even less often.
-	slower = 8
-	# Reduces how often sources behind the camera get ticked.
-	background_sleep = true
-
 # Light sources settings.
 [light_sources]
-	# Enable entities light source.
-	entities = true
-	# Enable first-person player light source.
-	self = true
 	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
 	water_sensitive_check = true
-	# Creeper lighting mode. May be off, simple or fancy.
-	creeper = "simple"
-	# TNT lighting mode. May be off, simple or fancy.
-	tnt = "off"
 	# Enables dynamic lighting of beacon or end gateway beams.
 	beam = true
 	# Enables dynamic lighting of firefly particles from Firefly Bushes.
 	firefly = true
-	# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.
-	guardian_laser = true
-	# Enables dynamic lighting of the Warden's sonic boom attack particles.
-	sonic_boom = true
 	# Enables dynamic lighting for entities that have the Glowing effect.
 	glowing_effect = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Enables dynamic lighting of the Warden's sonic boom attack particles.
+	sonic_boom = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.
+	guardian_laser = true
 
-[light_sources.settings.entities.minecraft]
-	glow_item_frame = false
+			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
+				axolotl = true
+				egg = true
+				zoglin = true
+				spawner_minecart = true
+				allay = true
+				llama = true
+				mule = true
+				bat = true
+				husk = true
+				camel = true
+				experience_bottle = true
+				rabbit = true
+				firework_rocket = true
+				silverfish = true
+				giant = true
+				drowned = true
+				item = true
+				goat = true
+				horse = true
+				vindicator = true
+				minecart = true
+				spectral_arrow = true
+				llama_spit = true
+				mooshroom = true
+				glow_item_frame = false
+				tnt = true
+				snowball = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				tadpole = true
+				ravager = true
+				evoker_fangs = true
+				chest_minecart = true
+				tropical_fish = true
+				slime = true
+				pillager = true
+				area_effect_cloud = true
+				blaze = true
+				piglin = true
+				end_crystal = true
+				endermite = true
+				zombie = true
+				ender_pearl = true
+				item_display = true
+				breeze_wind_charge = true
+				guardian = true
+				fireball = true
+				illusioner = true
+				eye_of_ender = true
+				wither_skull = true
+				wolf = true
+				block_display = true
+				tnt_minecart = true
+				zombie_villager = true
+				elder_guardian = true
+				chest_boat = true
+				boat = true
+				small_fireball = true
+				strider = true
+				cave_spider = true
+				cod = true
+				snow_golem = true
+				witch = true
+				spider = true
+				command_block_minecart = true
+				panda = true
+				bee = true
+				arrow = true
+				cow = true
+				magma_cube = true
+				pig = true
+				skeleton = true
+				frog = true
+				hoglin = true
+				armadillo = true
+				armor_stand = true
+				experience_orb = true
+				dolphin = true
+				stray = true
+				shulker = true
+				turtle = true
+				salmon = true
+				vex = true
+				wandering_trader = true
+				wither_skeleton = true
+				piglin_brute = true
+				breeze = true
+				ocelot = true
+				furnace_minecart = true
+				item_frame = true
+				phantom = true
+				ender_dragon = true
+				leash_knot = true
+				evoker = true
+				marker = true
+				warden = true
+				glow_squid = true
+				shulker_bullet = true
+				squid = true
+				enderman = true
+				dragon_fireball = true
+				chicken = true
+				sniffer = true
+				trader_llama = true
+				donkey = true
+				bogged = true
+				fox = true
+				iron_golem = true
+				zombified_piglin = true
+				cat = true
+				wind_charge = true
+				ghast = true
+				sheep = true
+				player = true
+				pufferfish = true
+				potion = true
+				trident = true
+				villager = true
+				ominous_item_spawner = true
+				skeleton_horse = true
+				fishing_bobber = true
+				text_display = true
+				polar_bear = true
+				hopper_minecart = true
+				falling_block = true
+				painting = true
+				interaction = true
+				wither = true
+
+			[light_sources.settings.entities.farmersdelight]
+				rotten_tomato = true
+
+			[light_sources.settings.entities.astikorcartsredux]
+				plow = true
+				supply_cart = true
+				postilion = true
+				animal_cart = true
+				hand_cart = true
+				reaper = true
+				seed_drill = true
+
+			[light_sources.settings.entities.tfcdraughtworks]
+				animal_quern_carrier = true
+
+			[light_sources.settings.entities.immersiveengineering]
+				explosive = true
+				sawblade = true
+				fusilier = true
+				skyline_hook = true
+				chemthrower_shot = true
+				bulwark = true
+				commando = true
+				railgun_shot = true
+				revolver_shot_wolfpack = true
+				fluorescent_tube = true
+				cart_reinforcedcrate = true
+				revolver_shot_flare = true
+				cart_woodencrate = true
+				revolver_shot_homing = true
+				cart_woodenbarrel = true
+				revolver_shot = true
+				cart_metalbarrel = true
+
+			[light_sources.settings.entities.remains]
+				falling_body = true
+				crow = true
+
+			[light_sources.settings.entities.fletcherstrestle]
+				heavy_dummy = true
+				modular_arrow = true
+				eagle = true
+				black_hole = true
+				garrison_golem = true
+
+			[light_sources.settings.entities.tfcthings]
+				thrown_hook_javelin = true
+				thrown_rope_bridge = true
+				thrown_rope_javelin = true
+				sling_stone = true
+
+			[light_sources.settings.entities.apoli]
+				custom_projectile = true
+				clone = true
+				minion = true
+
+			[light_sources.settings.entities.siegeworks]
+				siege_ladder = true
+				mangonel = true
+				mangonel_passenger_projectile = true
+				tower_crossbow = true
+				culverin = true
+				siege_tower = true
+				giant_cannon_ball_projectile = true
+				mantlet = true
+				scattershot_projectile = true
+				tower_crossbow_bolt_projectile = true
+				trebuchet_projectile = true
+				mangonel_projectile = true
+				battering_ram = true
+				singijeon_projectile = true
+				fire_arrow = true
+				hwacha = true
+				arcballista = true
+				trebuchet = true
+				arcballista_bolt_projectile = true
+				mons_meg = true
+				cannon_ball = true
+				serpentine = true
+
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				seat = true
+				stationary_contraption = true
+				package = true
+				contraption = true
+				gantry_contraption = true
+				super_glue = true
+				crafting_blueprint = true
+				potato_projectile = true
+
+			[light_sources.settings.entities.kingdom_come_combat]
+				hand_cannon_bullet = true
+
+			[light_sources.settings.entities.kaleidoscope_tavern]
+				thrown_molotov = true
+				sit = true
+
+			[light_sources.settings.entities.irons_artifice]
+				illificer = true
+				gunslinger = true
+				chain = true
+				soul = true
+				bullet = true
+
+			[light_sources.settings.entities.xercapaint]
+				canvas = true
+				easel = true
+
+			[light_sources.settings.entities.vortylib]
+				seat_entity = true
+
+			[light_sources.settings.entities.tfcastikorcarts]
+				"seed_drill/douglas_fir" = true
+				"plow/douglas_fir" = true
+				"seed_drill/maple" = true
+				"reaper/sequoia" = true
+				"plow/rosewood" = true
+				"hand_cart/oak" = true
+				"plow/spruce" = true
+				"seed_drill/oak" = true
+				"plow/chestnut" = true
+				"animal_cart/rosewood" = true
+				"hand_cart/mangrove" = true
+				"reaper/palm" = true
+				"reaper/hickory" = true
+				"animal_cart/pine" = true
+				"animal_cart/acacia" = true
+				"supply_cart/maple" = true
+				"supply_cart/white_cedar" = true
+				"hand_cart/acacia" = true
+				"seed_drill/blackwood" = true
+				"plow/pine" = true
+				"reaper/blackwood" = true
+				"seed_drill/mangrove" = true
+				"supply_cart/pine" = true
+				"supply_cart/rosewood" = true
+				"reaper/birch" = true
+				"hand_cart/blackwood" = true
+				"seed_drill/palm" = true
+				"supply_cart/sycamore" = true
+				"reaper/ash" = true
+				"hand_cart/palm" = true
+				"seed_drill/chestnut" = true
+				"reaper/kapok" = true
+				"seed_drill/willow" = true
+				"reaper/maple" = true
+				"seed_drill/acacia" = true
+				"animal_cart/blackwood" = true
+				"supply_cart/spruce" = true
+				"supply_cart/douglas_fir" = true
+				"plow/white_cedar" = true
+				"hand_cart/chestnut" = true
+				"animal_cart/sycamore" = true
+				"plow/blackwood" = true
+				"animal_cart/palm" = true
+				"supply_cart/oak" = true
+				"reaper/douglas_fir" = true
+				"reaper/aspen" = true
+				"reaper/sycamore" = true
+				"hand_cart/douglas_fir" = true
+				"animal_cart/oak" = true
+				"supply_cart/blackwood" = true
+				"reaper/spruce" = true
+				"hand_cart/white_cedar" = true
+				"animal_cart/sequoia" = true
+				"plow/willow" = true
+				"animal_cart/maple" = true
+				"plow/ash" = true
+				"reaper/mangrove" = true
+				"animal_cart/aspen" = true
+				"seed_drill/kapok" = true
+				"animal_cart/birch" = true
+				"plow/sequoia" = true
+				"supply_cart/aspen" = true
+				"supply_cart/birch" = true
+				"supply_cart/sequoia" = true
+				"seed_drill/aspen" = true
+				"animal_cart/kapok" = true
+				"reaper/rosewood" = true
+				"seed_drill/sycamore" = true
+				"plow/hickory" = true
+				"plow/mangrove" = true
+				"supply_cart/hickory" = true
+				"animal_cart/willow" = true
+				"seed_drill/sequoia" = true
+				"reaper/white_cedar" = true
+				"seed_drill/birch" = true
+				"supply_cart/kapok" = true
+				"hand_cart/pine" = true
+				"hand_cart/hickory" = true
+				"plow/oak" = true
+				"hand_cart/sequoia" = true
+				"hand_cart/rosewood" = true
+				"hand_cart/aspen" = true
+				"hand_cart/birch" = true
+				"plow/kapok" = true
+				"supply_cart/mangrove" = true
+				"animal_cart/spruce" = true
+				"plow/acacia" = true
+				"hand_cart/spruce" = true
+				"reaper/willow" = true
+				"supply_cart/ash" = true
+				"seed_drill/ash" = true
+				"plow/birch" = true
+				"animal_cart/mangrove" = true
+				"hand_cart/sycamore" = true
+				"hand_cart/kapok" = true
+				"animal_cart/hickory" = true
+				"reaper/chestnut" = true
+				"seed_drill/rosewood" = true
+				"supply_cart/acacia" = true
+				"supply_cart/willow" = true
+				"animal_cart/ash" = true
+				"supply_cart/chestnut" = true
+				"seed_drill/spruce" = true
+				"plow/aspen" = true
+				"seed_drill/white_cedar" = true
+				"hand_cart/willow" = true
+				"reaper/pine" = true
+				"hand_cart/ash" = true
+				"plow/maple" = true
+				"plow/palm" = true
+				"animal_cart/douglas_fir" = true
+				"seed_drill/hickory" = true
+				"reaper/oak" = true
+				"seed_drill/pine" = true
+				"supply_cart/palm" = true
+				"plow/sycamore" = true
+				"reaper/acacia" = true
+				"animal_cart/chestnut" = true
+				"animal_cart/white_cedar" = true
+				"hand_cart/maple" = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+				item_frame = true
+
+			[light_sources.settings.entities.tfc]
+				tilapia = true
+				"chest_boat/pine" = true
+				burbot = true
+				"boat/mangrove" = true
+				muksun = true
+				boar = true
+				"boat/pine" = true
+				mule = true
+				"boat/kapok" = true
+				isopod = true
+				alpaca = true
+				holding_minecart = true
+				rabbit = true
+				thrown_javelin = true
+				pacu = true
+				"boat/birch" = true
+				arctic_char = true
+				jerboa = true
+				grouse = true
+				"chest_boat/ash" = true
+				"boat/ash" = true
+				rat = true
+				red_piranha = true
+				rope_knot = true
+				goat = true
+				moose = true
+				tiger = true
+				lion = true
+				horse = true
+				seat = true
+				turkey = true
+				"boat/aspen" = true
+				peacock_bass = true
+				dog = true
+				"boat/willow" = true
+				jellyfish = true
+				"chest_boat/sycamore" = true
+				crayfish = true
+				"boat/acacia" = true
+				"boat/spruce" = true
+				gazelle = true
+				chest_minecart = true
+				tropical_fish = true
+				"chest_boat/maple" = true
+				"chest_boat/kapok" = true
+				"chest_boat/birch" = true
+				leopard_seal = true
+				"chest_boat/aspen" = true
+				yak = true
+				"chest_boat/mangrove" = true
+				wolf = true
+				largemouth_bass = true
+				glow_arrow = true
+				dromedary_camel = true
+				"boat/palm" = true
+				cod = true
+				direwolf = true
+				wildebeest = true
+				"chest_boat/acacia" = true
+				bison = true
+				penguin = true
+				"boat/blackwood" = true
+				"chest_boat/chestnut" = true
+				panda = true
+				bluegill = true
+				"chest_boat/hickory" = true
+				"boat/maple" = true
+				cow = true
+				"boat/oak" = true
+				"chest_boat/oak" = true
+				pig = true
+				frog = true
+				"chest_boat/rosewood" = true
+				caribou = true
+				duck = true
+				armadillo = true
+				octopoteuthis = true
+				"boat/douglas_fir" = true
+				"chest_boat/spruce" = true
+				dolphin = true
+				black_bear = true
+				manatee = true
+				turtle = true
+				"boat/rosewood" = true
+				lobster = true
+				salmon = true
+				grizzly_bear = true
+				"boat/sycamore" = true
+				ocelot = true
+				"chest_boat/willow" = true
+				orca = true
+				"chest_boat/douglas_fir" = true
+				"chest_boat/white_cedar" = true
+				panther = true
+				squid = true
+				musk_ox = true
+				smallmouth_bass = true
+				deer = true
+				"chest_boat/palm" = true
+				crocodile = true
+				chicken = true
+				spotted_gudgeon = true
+				lemming = true
+				mongoose = true
+				donkey = true
+				fox = true
+				quail = true
+				"boat/sequoia" = true
+				rainbow_trout = true
+				hyena = true
+				"chest_boat/blackwood" = true
+				cat = true
+				pheasant = true
+				"boat/white_cedar" = true
+				sheep = true
+				pufferfish = true
+				bactrian_camel = true
+				fishing_bobber = true
+				"boat/hickory" = true
+				cougar = true
+				horseshoe_crab = true
+				polar_bear = true
+				bongo = true
+				peafowl = true
+				falling_block = true
+				lake_trout = true
+				crappie = true
+				"boat/chestnut" = true
+				sabertooth = true
+				northern_pike = true
+				"chest_boat/sequoia" = true
+
+			[light_sources.settings.entities.firmalife]
+				bee = true
+
+			[light_sources.settings.entities.interiors]
+				big_seat = true
+
+			[light_sources.settings.entities.exposure]
+				glass_photograph_frame = true
+				camera_stand = true
+				photograph_frame = true
+
+			[light_sources.settings.entities.hexcasting]
+				wall_scroll = true
+
+			[light_sources.settings.entities.rechanted]
+				lucky_gem = true
+				return_gem_beam = true
+				thrown_warp_gem = true
+
+			[light_sources.settings.entities.tff]
+				seat = true
+				table_cloth = true
+
+			[light_sources.settings.entities.kaleidoscope_cookery]
+				scarecrow = true
+				throwable_baozi = true
+				sit = true
+
+			[light_sources.settings.entities.supplementaries]
+				dispenser_minecart = true
+				slingshot_projectile = true
+				brick_projectile = true
+				plunderer = true
+				falling_sack = true
+				pearl_marker = true
+				hat_stand = true
+				bomb = true
+				falling_ash = true
+				cannonball = true
+				falling_urn = true
+				red_merchant = true
+				cannon_boat = true
+				rope_arrow = true
+				slimeball_projectile = true
+
+			[light_sources.settings.entities.weaversparadise]
+				hanging_flag_entity = true
+
+[debug]
+	active_dynamic_lighting_cells = false
+	display_dynamic_lighting_chunk_rebuild = false
+	display_behavior_bounding_box = false
+
+[adaptive_ticking]
+	# Reduces how often sources behind the camera get ticked.
+	background_sleep = true
+	# How far away (in chunks) until light sources get ticked less often.
+	slow = 5
+	# How far away (in chunks) until light sources get ticked even less often.
+	slower = 8

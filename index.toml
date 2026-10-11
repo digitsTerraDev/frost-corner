@@ -649,6 +649,36 @@ file = "config/historystages/global/_exampleStage.json"
 file = "config/historystages/individual/Smith/Smith0.json"
 
 [[files]]
+file = "config/historystages/logs/debug-2026-10-11_16-09-28.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_17-11-14.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_18-55-19.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_22-24-28.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_22-53-03.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_22-58-43.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_23-07-18.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-12_00-48-32.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-12_00-59-37.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-12_01-04-37.log"
+
+[[files]]
 file = "config/historystages/settings/gameplay.toml"
 
 [[files]]
@@ -683,6 +713,12 @@ file = "config/iris-excluded.json"
 
 [[files]]
 file = "config/iris.properties"
+
+[[files]]
+file = "config/irons_artifice-client.toml"
+
+[[files]]
+file = "config/irons_artifice-server.toml"
 
 [[files]]
 file = "config/item-restrictions-common.yaml"
@@ -767,6 +803,9 @@ file = "config/jei/jei-mod-id-format.ini"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
+
+[[files]]
+file = "config/jei/world/local/New World (1)/lookupHistory.json"
 
 [[files]]
 file = "config/jei/world/local/New World (2)/lookupHistory.json"
@@ -967,6 +1006,9 @@ file = "config/pehkui-common.toml"
 file = "config/pehkui-server.toml"
 
 [[files]]
+file = "config/permadeath-server.toml"
+
+[[files]]
 file = "config/petrolpark-client.toml"
 
 [[files]]
@@ -988,6 +1030,15 @@ file = "config/precision-prospecting.toml"
 file = "config/puffish_skills/config.json"
 
 [[files]]
+file = "config/purescale-modern.json"
+
+[[files]]
+file = "config/purescale-support-avatar.png"
+
+[[files]]
+file = "config/purescale-support.properties"
+
+[[files]]
 file = "config/rechanted-common.toml"
 
 [[files]]
@@ -1004,6 +1055,9 @@ file = "config/reliable_remover/removal_example.json.disabled"
 
 [[files]]
 file = "config/remains-client.toml"
+
+[[files]]
+file = "config/remains-common-1.toml.bak"
 
 [[files]]
 file = "config/remains-common.toml"
@@ -1094,6 +1148,12 @@ file = "config/terrafactions-client.toml"
 
 [[files]]
 file = "config/terrafactions-server.toml"
+
+[[files]]
+file = "config/terraskills-client.toml"
+
+[[files]]
+file = "config/terraskills-server.toml"
 
 [[files]]
 file = "config/territory-server.toml"
@@ -2165,10 +2225,6 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-tfc-unofficial-port.pw.toml"
 metafile = true
 
 [[files]]
