@@ -1090,22 +1090,7 @@ file = "kubejs/data/terraskills/puffish_skills/categories/miner/definitions.json
 file = "kubejs/data/terraskills/puffish_skills/categories/miner/skills.json"
 
 [[files]]
-file = "kubejs/data/terraskills/puffish_skills/categories/warrior/category.json"
-
-[[files]]
-file = "kubejs/data/terraskills/puffish_skills/categories/warrior/connections.json"
-
-[[files]]
-file = "kubejs/data/terraskills/puffish_skills/categories/warrior/definitions.json"
-
-[[files]]
-file = "kubejs/data/terraskills/puffish_skills/categories/warrior/skills.json"
-
-[[files]]
 file = "kubejs/data/terraskills/terraskills_research/miner.json"
-
-[[files]]
-file = "kubejs/data/terraskills/terraskills_research/warrior.json"
 
 [[files]]
 file = "kubejs/data/tfc/recipe/heating/ore/normal_bismuthinite.json"
@@ -1575,6 +1560,18 @@ metafile = true
 
 [[files]]
 file = "mods/discord-integration.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamictrees.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamictreesplus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamictreestfc.pw.toml"
 metafile = true
 
 [[files]]
