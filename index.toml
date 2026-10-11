@@ -2232,6 +2232,18 @@ file = "mods/engineered-schematics.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dynamictrees.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamictreesplus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamictreestfc.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-block-entities-neoforged.pw.toml"
 metafile = true
 
