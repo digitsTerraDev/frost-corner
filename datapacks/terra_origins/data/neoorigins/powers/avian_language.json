@@ -1,0 +1,13 @@
+{
+  "type": "apoli:action_on_callback",
+  "entity_action_added": {
+    "type": "apoli:execute_command",
+    "command": "language give @s draconic 100"
+  },
+  "entity_action_chosen": {
+    "type": "apoli:execute_command",
+    "command": "language give @s draconic 100"
+  },
+  "name": "Draconic Language",
+  "description": "Grants 100 Draconic language proficiency."
+}

@@ -1,10 +1,31 @@
 {
-  "type": "apoli:attribute",
-  "modifier": {
-    "attribute": "minecraft:generic.scale",
-    "operation": "addition",
-    "value": -0.25
+  "type": "apoli:action_on_callback",
+  "entity_action_added": {
+    "type": "apoli:and",
+    "actions": [
+      {
+        "type": "apoli:execute_command",
+        "command": "scale set pehkui:height 0.75 @s"
+      },
+      {
+        "type": "apoli:execute_command",
+        "command": "scale set pehkui:width 1.2 @s"
+      }
+    ]
+  },
+  "entity_action_removed": {
+    "type": "apoli:and",
+    "actions": [
+      {
+        "type": "apoli:execute_command",
+        "command": "scale set pehkui:height 1 @s"
+      },
+      {
+        "type": "apoli:execute_command",
+        "command": "scale set pehkui:width 1 @s"
+      }
+    ]
   },
   "name": "Dwarven Stature",
-  "description": "25% smaller in height and width."
+  "description": "25% shorter and 20% broader."
 }

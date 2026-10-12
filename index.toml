@@ -1336,6 +1336,9 @@ file = "datapacks/terra_origins/data/neoorigins/powers/avian_instinct.json"
 file = "datapacks/terra_origins/data/neoorigins/powers/avian_inteligence.json"
 
 [[files]]
+file = "datapacks/terra_origins/data/neoorigins/powers/avian_language.json"
+
+[[files]]
 file = "datapacks/terra_origins/data/neoorigins/powers/avian_might.json"
 
 [[files]]
@@ -1349,6 +1352,9 @@ file = "datapacks/terra_origins/data/neoorigins/powers/dwarf_instinct.json"
 
 [[files]]
 file = "datapacks/terra_origins/data/neoorigins/powers/dwarf_intelligence.json"
+
+[[files]]
+file = "datapacks/terra_origins/data/neoorigins/powers/dwarf_language.json"
 
 [[files]]
 file = "datapacks/terra_origins/data/neoorigins/powers/dwarf_might.json"
@@ -1408,6 +1414,9 @@ file = "datapacks/terra_origins/data/neoorigins/powers/mantleforged_instinct.jso
 file = "datapacks/terra_origins/data/neoorigins/powers/mantleforged_intelligence.json"
 
 [[files]]
+file = "datapacks/terra_origins/data/neoorigins/powers/mantleforged_language.json"
+
+[[files]]
 file = "datapacks/terra_origins/data/neoorigins/powers/mantleforged_might.json"
 
 [[files]]
@@ -1421,6 +1430,9 @@ file = "datapacks/terra_origins/data/neoorigins/powers/merfolk_instinct.json"
 
 [[files]]
 file = "datapacks/terra_origins/data/neoorigins/powers/merfolk_intelligence.json"
+
+[[files]]
+file = "datapacks/terra_origins/data/neoorigins/powers/merfolk_language.json"
 
 [[files]]
 file = "datapacks/terra_origins/data/neoorigins/powers/merfolk_might.json"

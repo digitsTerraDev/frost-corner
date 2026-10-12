@@ -1,0 +1,13 @@
+{
+  "type": "apoli:action_on_callback",
+  "entity_action_added": {
+    "type": "apoli:execute_command",
+    "command": "language give @s ancient 100"
+  },
+  "entity_action_chosen": {
+    "type": "apoli:execute_command",
+    "command": "language give @s ancient 100"
+  },
+  "name": "Ancient Language",
+  "description": "Grants 100 Ancient language proficiency."
+}
