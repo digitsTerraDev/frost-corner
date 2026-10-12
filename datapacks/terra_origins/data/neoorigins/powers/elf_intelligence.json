@@ -6,5 +6,5 @@
     "operation": "addition",
     "value": 4
   },
-  "description": "+4 Intelligence. Improves research using this affinity."
+  "description": "Improves research speed for skills using this affinity."
 }
