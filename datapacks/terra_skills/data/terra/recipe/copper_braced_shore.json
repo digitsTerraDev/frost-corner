@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LML",
+    "S S",
+    "LML"
+  ],
+  "key": {
+    "L": {
+      "tag": "tfc:lumber"
+    },
+    "M": {
+      "item": "tfc:metal/rod/copper"
+    },
+    "S": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "kubejs:copper_braced_shore",
+    "count": 1
+  }
+}

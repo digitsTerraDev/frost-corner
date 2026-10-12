@@ -1,7 +1,7 @@
 {
   "miner_1": {
     "title": "Mining I",
-    "description": "+5% block breaking speed per rank; tool harvest requirements still apply.",
+    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 1 points.",
     "frame": {
       "type": "advancement",
@@ -20,7 +20,7 @@
   },
   "miner_2": {
     "title": "Mining II",
-    "description": "+5% block breaking speed per rank; tool harvest requirements still apply.",
+    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 2 points.",
     "frame": {
       "type": "advancement",
@@ -39,7 +39,7 @@
   },
   "miner_3": {
     "title": "Mining III",
-    "description": "+5% block breaking speed per rank; tool harvest requirements still apply.",
+    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 4 points.",
     "frame": {
       "type": "advancement",
@@ -58,7 +58,7 @@
   },
   "miner_4": {
     "title": "Mining IV",
-    "description": "+5% block breaking speed per rank; tool harvest requirements still apply.",
+    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 7 points.",
     "frame": {
       "type": "advancement",
@@ -77,7 +77,7 @@
   },
   "miner_5": {
     "title": "Mining V",
-    "description": "+5% block breaking speed per rank; tool harvest requirements still apply.",
+    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 11 points.",
     "frame": {
       "type": "advancement",
@@ -191,7 +191,7 @@
   },
   "mine_safety_1": {
     "title": "Heights Training I",
-    "description": "+0.5 blocks of safe fall distance per rank; maximum +2.5 blocks. Deep drops still hurt.",
+    "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
     "extra_description": "Rank bonuses accumulate. Research cost: 1 points.",
     "frame": {
       "type": "advancement",
@@ -206,20 +206,11 @@
       }
     },
     "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.safe_fall_distance",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
+    "rewards": []
   },
   "mine_safety_2": {
     "title": "Heights Training II",
-    "description": "+0.5 blocks of safe fall distance per rank; maximum +2.5 blocks. Deep drops still hurt.",
+    "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
     "extra_description": "Rank bonuses accumulate. Research cost: 2 points.",
     "frame": {
       "type": "advancement",
@@ -234,20 +225,11 @@
       }
     },
     "cost": 2,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.safe_fall_distance",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
+    "rewards": []
   },
   "mine_safety_3": {
     "title": "Heights Training III",
-    "description": "+0.5 blocks of safe fall distance per rank; maximum +2.5 blocks. Deep drops still hurt.",
+    "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
     "extra_description": "Rank bonuses accumulate. Research cost: 4 points.",
     "frame": {
       "type": "advancement",
@@ -262,20 +244,11 @@
       }
     },
     "cost": 4,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.safe_fall_distance",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
+    "rewards": []
   },
   "mine_safety_4": {
     "title": "Heights Training IV",
-    "description": "+0.5 blocks of safe fall distance per rank; maximum +2.5 blocks. Deep drops still hurt.",
+    "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
     "extra_description": "Rank bonuses accumulate. Research cost: 7 points.",
     "frame": {
       "type": "advancement",
@@ -290,20 +263,11 @@
       }
     },
     "cost": 7,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.safe_fall_distance",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
+    "rewards": []
   },
   "mine_safety_5": {
     "title": "Heights Training V",
-    "description": "+0.5 blocks of safe fall distance per rank; maximum +2.5 blocks. Deep drops still hurt.",
+    "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
     "extra_description": "Rank bonuses accumulate. Research cost: 11 points.",
     "frame": {
       "type": "advancement",
@@ -318,20 +282,11 @@
       }
     },
     "cost": 11,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.safe_fall_distance",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
+    "rewards": []
   },
   "careful_mining_1": {
     "title": "Careful Mining I",
-    "description": "Planned: 10% less mining-collapse trigger chance per rank, up to 50%. NOT ACTIVE: requires a custom TFC hook.",
+    "description": "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -349,7 +304,7 @@
   },
   "careful_mining_2": {
     "title": "Careful Mining II",
-    "description": "Planned: 10% less mining-collapse trigger chance per rank, up to 50%. NOT ACTIVE: requires a custom TFC hook.",
+    "description": "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -367,7 +322,7 @@
   },
   "careful_mining_3": {
     "title": "Careful Mining III",
-    "description": "Planned: 10% less mining-collapse trigger chance per rank, up to 50%. NOT ACTIVE: requires a custom TFC hook.",
+    "description": "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -385,7 +340,7 @@
   },
   "careful_mining_4": {
     "title": "Careful Mining IV",
-    "description": "Planned: 10% less mining-collapse trigger chance per rank, up to 50%. NOT ACTIVE: requires a custom TFC hook.",
+    "description": "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -403,7 +358,7 @@
   },
   "careful_mining_5": {
     "title": "Careful Mining V",
-    "description": "Planned: 10% less mining-collapse trigger chance per rank, up to 50%. NOT ACTIVE: requires a custom TFC hook.",
+    "description": "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -511,7 +466,7 @@
   },
   "deep_mining_1": {
     "title": "Deep Mining I",
-    "description": "+5% mining speed per rank below Y=0 while holding a pickaxe.",
+    "description": "+5% mining speed per rank while holding a pickaxe below Y=0 (player position).",
     "frame": {
       "type": "advancement",
       "data": {
@@ -530,7 +485,7 @@
   },
   "deep_mining_2": {
     "title": "Deep Mining II",
-    "description": "+5% mining speed per rank below Y=0 while holding a pickaxe.",
+    "description": "+5% mining speed per rank while holding a pickaxe below Y=0 (player position).",
     "frame": {
       "type": "advancement",
       "data": {
@@ -548,7 +503,7 @@
   },
   "deep_mining_3": {
     "title": "Deep Mining III",
-    "description": "+5% mining speed per rank below Y=0 while holding a pickaxe.",
+    "description": "+5% mining speed per rank while holding a pickaxe below Y=0 (player position).",
     "frame": {
       "type": "advancement",
       "data": {
@@ -566,7 +521,7 @@
   },
   "deep_mining_4": {
     "title": "Deep Mining IV",
-    "description": "+5% mining speed per rank below Y=0 while holding a pickaxe.",
+    "description": "+5% mining speed per rank while holding a pickaxe below Y=0 (player position).",
     "frame": {
       "type": "advancement",
       "data": {
@@ -584,7 +539,7 @@
   },
   "deep_mining_5": {
     "title": "Deep Mining V",
-    "description": "+5% mining speed per rank below Y=0 while holding a pickaxe.",
+    "description": "+5% mining speed per rank while holding a pickaxe below Y=0 (player position).",
     "frame": {
       "type": "advancement",
       "data": {
@@ -602,7 +557,7 @@
   },
   "stone_mining_1": {
     "title": "Stone Mining I",
-    "description": "+4% mining speed per rank when mining TFC raw stone with a pickaxe; maximum +20%.",
+    "description": "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -621,7 +576,7 @@
   },
   "stone_mining_2": {
     "title": "Stone Mining II",
-    "description": "+4% mining speed per rank when mining TFC raw stone with a pickaxe; maximum +20%.",
+    "description": "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -639,7 +594,7 @@
   },
   "stone_mining_3": {
     "title": "Stone Mining III",
-    "description": "+4% mining speed per rank when mining TFC raw stone with a pickaxe; maximum +20%.",
+    "description": "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -657,7 +612,7 @@
   },
   "stone_mining_4": {
     "title": "Stone Mining IV",
-    "description": "+4% mining speed per rank when mining TFC raw stone with a pickaxe; maximum +20%.",
+    "description": "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -675,7 +630,7 @@
   },
   "stone_mining_5": {
     "title": "Stone Mining V",
-    "description": "+4% mining speed per rank when mining TFC raw stone with a pickaxe; maximum +20%.",
+    "description": "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -784,7 +739,7 @@
   },
   "careful_eye_1": {
     "title": "Careful Eye I",
-    "description": "PENDING: +0.2 percentage points per rank to discover rock-appropriate gems in natural stone. Requires natural-block tracking.",
+    "description": "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -803,7 +758,7 @@
   },
   "careful_eye_2": {
     "title": "Careful Eye II",
-    "description": "PENDING: +0.2 percentage points per rank to discover rock-appropriate gems in natural stone. Requires natural-block tracking.",
+    "description": "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -821,7 +776,7 @@
   },
   "careful_eye_3": {
     "title": "Careful Eye III",
-    "description": "PENDING: +0.2 percentage points per rank to discover rock-appropriate gems in natural stone. Requires natural-block tracking.",
+    "description": "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -839,7 +794,7 @@
   },
   "careful_eye_4": {
     "title": "Careful Eye IV",
-    "description": "PENDING: +0.2 percentage points per rank to discover rock-appropriate gems in natural stone. Requires natural-block tracking.",
+    "description": "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -857,7 +812,7 @@
   },
   "careful_eye_5": {
     "title": "Careful Eye V",
-    "description": "PENDING: +0.2 percentage points per rank to discover rock-appropriate gems in natural stone. Requires natural-block tracking.",
+    "description": "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -875,7 +830,7 @@
   },
   "tool_conservation_1": {
     "title": "Tool Conservation I",
-    "description": "PENDING: 3% chance per rank to prevent the whole mining durability charge; doubled during Brutish Mining. Requires a durability hook.",
+    "description": "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -894,7 +849,7 @@
   },
   "tool_conservation_2": {
     "title": "Tool Conservation II",
-    "description": "PENDING: 3% chance per rank to prevent the whole mining durability charge; doubled during Brutish Mining. Requires a durability hook.",
+    "description": "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -912,7 +867,7 @@
   },
   "tool_conservation_3": {
     "title": "Tool Conservation III",
-    "description": "PENDING: 3% chance per rank to prevent the whole mining durability charge; doubled during Brutish Mining. Requires a durability hook.",
+    "description": "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -930,7 +885,7 @@
   },
   "tool_conservation_4": {
     "title": "Tool Conservation IV",
-    "description": "PENDING: 3% chance per rank to prevent the whole mining durability charge; doubled during Brutish Mining. Requires a durability hook.",
+    "description": "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -948,7 +903,7 @@
   },
   "tool_conservation_5": {
     "title": "Tool Conservation V",
-    "description": "PENDING: 3% chance per rank to prevent the whole mining durability charge; doubled during Brutish Mining. Requires a durability hook.",
+    "description": "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -966,7 +921,7 @@
   },
   "brutish_mining_1": {
     "title": "Brutish Mining I",
-    "description": "PENDING: toggled +50/100/150/200/250% speed with 3/3.5/4/4.5/5x wear. Tool Conservation doubles. Disabled until wear is implemented.",
+    "description": "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -985,7 +940,7 @@
   },
   "brutish_mining_2": {
     "title": "Brutish Mining II",
-    "description": "PENDING: toggled +50/100/150/200/250% speed with 3/3.5/4/4.5/5x wear. Tool Conservation doubles. Disabled until wear is implemented.",
+    "description": "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1003,7 +958,7 @@
   },
   "brutish_mining_3": {
     "title": "Brutish Mining III",
-    "description": "PENDING: toggled +50/100/150/200/250% speed with 3/3.5/4/4.5/5x wear. Tool Conservation doubles. Disabled until wear is implemented.",
+    "description": "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1021,7 +976,7 @@
   },
   "brutish_mining_4": {
     "title": "Brutish Mining IV",
-    "description": "PENDING: toggled +50/100/150/200/250% speed with 3/3.5/4/4.5/5x wear. Tool Conservation doubles. Disabled until wear is implemented.",
+    "description": "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1039,7 +994,7 @@
   },
   "brutish_mining_5": {
     "title": "Brutish Mining V",
-    "description": "PENDING: toggled +50/100/150/200/250% speed with 3/3.5/4/4.5/5x wear. Tool Conservation doubles. Disabled until wear is implemented.",
+    "description": "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1057,7 +1012,7 @@
   },
   "hazard_management_1": {
     "title": "Hazard Management I",
-    "description": "PENDING: +10 percentage points per rank to arrest a local collapse front. Copper unlocks at I (10% base); black steel at IV (45% base). One attempt, shore consumed.",
+    "description": "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1076,7 +1031,7 @@
   },
   "hazard_management_2": {
     "title": "Hazard Management II",
-    "description": "PENDING: +10 percentage points per rank to arrest a local collapse front. Copper unlocks at I (10% base); black steel at IV (45% base). One attempt, shore consumed.",
+    "description": "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1094,7 +1049,7 @@
   },
   "hazard_management_3": {
     "title": "Hazard Management III",
-    "description": "PENDING: +10 percentage points per rank to arrest a local collapse front. Copper unlocks at I (10% base); black steel at IV (45% base). One attempt, shore consumed.",
+    "description": "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1112,7 +1067,7 @@
   },
   "hazard_management_4": {
     "title": "Hazard Management IV",
-    "description": "PENDING: +10 percentage points per rank to arrest a local collapse front. Copper unlocks at I (10% base); black steel at IV (45% base). One attempt, shore consumed.",
+    "description": "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1130,7 +1085,7 @@
   },
   "hazard_management_5": {
     "title": "Hazard Management V",
-    "description": "PENDING: +10 percentage points per rank to arrest a local collapse front. Copper unlocks at I (10% base); black steel at IV (45% base). One attempt, shore consumed.",
+    "description": "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore.",
     "frame": {
       "type": "advancement",
       "data": {
