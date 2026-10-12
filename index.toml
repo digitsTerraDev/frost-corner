@@ -1303,7 +1303,10 @@ file = "config/xptome.toml"
 file = "config/yacl.json5"
 
 [[files]]
-file = "datapacks/siegeworks_datapack.zip"
+file = "datapacks/siegeworks_datapack/data/siegeworks/blueprints/arcballista.json"
+
+[[files]]
+file = "datapacks/siegeworks_datapack/pack.mcmeta"
 
 [[files]]
 file = "datapacks/terra_origins/data/neoorigins/origins/avian.json"
@@ -1471,7 +1474,46 @@ file = "datapacks/terra_skills/data/terraskills/terraskills_research/miner.json"
 file = "datapacks/terra_skills/pack.mcmeta"
 
 [[files]]
-file = "datapacks/tfc_dmg_res_datapack.zip"
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/entity_damage_resistance/skeletons.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/entity_damage_resistance/zombies.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/bismuth_bronze_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/black_bronze_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/black_steel_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/blue_steel_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/bronze_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/chainmail_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/copper_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/leather_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/red_steel_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/steel_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/wrought_iron_armor.json"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack/pack.mcmeta"
 
 [[files]]
 file = "docker/Dockerfile"
