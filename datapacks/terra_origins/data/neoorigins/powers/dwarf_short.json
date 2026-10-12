@@ -1,0 +1,10 @@
+{
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.scale",
+    "operation": "addition",
+    "value": -0.25
+  },
+  "name": "Dwarven Stature",
+  "description": "25% smaller in height and width."
+}

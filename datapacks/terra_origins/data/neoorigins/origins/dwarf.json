@@ -1,0 +1,16 @@
+{
+  "name": "Dwarf",
+  "description": "Mountain people. Very strongly dislikes elves",
+  "icon": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "impact": 2,
+  "powers": [
+    "neoorigins:dwarf_short",
+    "neoorigins:dwarf_might",
+    "neoorigins:dwarf_finesse",
+    "neoorigins:dwarf_endurance",
+    "neoorigins:dwarf_intelligence",
+    "neoorigins:dwarf_instinct"
+  ]
+}

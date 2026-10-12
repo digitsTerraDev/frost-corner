@@ -1,0 +1,10 @@
+{
+  "name": "+2 Finesse",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "terraskills:finesse",
+    "operation": "addition",
+    "value": 2
+  },
+  "description": "+2 Finesse. Improves research using this affinity."
+}

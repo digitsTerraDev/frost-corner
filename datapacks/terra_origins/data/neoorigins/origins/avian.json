@@ -1,0 +1,15 @@
+{
+  "name": "Avian",
+  "description": "Bird people.  Very smart",
+  "icon": {
+    "item": "minecraft:feather"
+  },
+  "impact": 2,
+  "powers": [
+    "neoorigins:avian_might",
+    "neoorigins:avian_finesse",
+    "neoorigins:avian_endurance",
+    "neoorigins:avian_inteligence",
+    "neoorigins:avian_instinct"
+  ]
+}

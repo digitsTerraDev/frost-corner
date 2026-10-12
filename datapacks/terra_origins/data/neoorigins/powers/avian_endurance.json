@@ -1,0 +1,10 @@
+{
+  "name": "+3 Endurance",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "terraskills:endurance",
+    "operation": "addition",
+    "value": 3
+  },
+  "description": "+3 Endurance. Improves research using this affinity."
+}

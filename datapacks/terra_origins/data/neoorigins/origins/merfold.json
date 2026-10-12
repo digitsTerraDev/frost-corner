@@ -1,0 +1,15 @@
+{
+  "name": "Merfolk",
+  "description": "Water people. Strong instincts",
+  "icon": {
+    "item": "minecraft:salmon"
+  },
+  "powers": [
+    "neoorigins:merfolk_might",
+    "neoorigins:merfolk_finesse",
+    "neoorigins:merfolk_endurance",
+    "neoorigins:merfolk_intelligence",
+    "neoorigins:merfolk_instinct"
+  ],
+  "impact": 2
+}

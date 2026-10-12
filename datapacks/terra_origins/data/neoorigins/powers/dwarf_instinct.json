@@ -1,0 +1,10 @@
+{
+  "name": "+4 Instinct",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "terraskills:instinct",
+    "operation": "addition",
+    "value": 4
+  },
+  "description": "+4 Instinct. Improves research using this affinity."
+}

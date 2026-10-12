@@ -1,0 +1,10 @@
+{
+  "name": "+3 Might",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "terraskills:might",
+    "operation": "addition",
+    "value": 3
+  },
+  "description": "+3 Might. Improves research using this affinity."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "+1 Intelligence",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "terraskills:intelligence",
+    "operation": "addition",
+    "value": 1
+  },
+  "description": "+1 Intelligence. Improves research using this affinity."
+}

@@ -1,0 +1,13 @@
+{
+  "type": "apoli:action_on_callback",
+  "entity_action_added": {
+    "type": "apoli:execute_command",
+    "command": "scale set pehkui:height 1.25 @s"
+  },
+  "entity_action_removed": {
+    "type": "apoli:execute_command",
+    "command": "scale set pehkui:height 1 @s"
+  },
+  "name": "Elven Stature",
+  "description": "25% taller."
+}
