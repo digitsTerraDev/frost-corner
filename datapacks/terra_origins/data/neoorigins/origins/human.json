@@ -1,0 +1,16 @@
+{
+  "name": "Human",
+  "description": "Overall average stats and playstyle.",
+  "icon": {
+    "item": "minecraft:player_head"
+  },
+  "impact": 1,
+  "powers": [
+    "neoorigins:human_might",
+    "neoorigins:human_finesse",
+    "neoorigins:human_endurance",
+    "neoorigins:human_intelligence",
+    "neoorigins:human_instinct",
+    "neoorigins:human_language"
+  ]
+}

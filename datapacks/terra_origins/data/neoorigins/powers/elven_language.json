@@ -1,0 +1,13 @@
+{
+  "type": "apoli:action_on_callback",
+  "entity_action_added": {
+    "type": "apoli:execute_command",
+    "command": "language give @s elven 100"
+  },
+  "entity_action_chosen": {
+    "type": "apoli:execute_command",
+    "command": "language give @s elven 100"
+  },
+  "name": "Elven Language",
+  "description": "Grants 100 Elven language proficiency."
+}

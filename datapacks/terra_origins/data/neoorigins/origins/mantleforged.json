@@ -1,0 +1,16 @@
+{
+  "name": "Mantleforged",
+  "description": "Mechanical construct. Very durable",
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "impact": 2,
+  "powers": [
+    "neoorigins:mantleforged_might",
+    "neoorigins:mantleforged_finesse",
+    "neoorigins:mantleforged_endurance",
+    "neoorigins:mantleforged_intelligence",
+    "neoorigins:mantleforged_instinct",
+    "neoorigins:mantleforged_language"
+  ]
+}

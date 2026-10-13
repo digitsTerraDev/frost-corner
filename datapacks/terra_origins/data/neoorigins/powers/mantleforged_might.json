@@ -1,0 +1,10 @@
+{
+  "name": "+1 Might",
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "terraskills:might",
+    "operation": "addition",
+    "value": 1
+  },
+  "description": "Improves research speed for skills using this affinity."
+}

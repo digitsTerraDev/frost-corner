@@ -1,0 +1,13 @@
+{
+  "formatVersion": 3,
+  "result": { "item": "siegeworks:arcballista_spawner", "entity": "siegeworks:arcballista" },
+  "returns": { "#tfc:lumber": "tfc:wood/lumber/oak" },
+  "stages": [
+    { "section": "wheels", "hits": 6,
+      "materials": { "siegeworks:wheel": 2, "tfc_items:cast_iron_foil": 2, "tfc:stick_bunch": 2, "#tfc:lumber": 20 } },
+    { "section": "frame", "hits": 14,
+      "materials": { "#tfc:lumber": 32, "tfc_items:bowlimb": 2, "tfc_items:cast_iron_ring": 2 } },
+    { "section": "mechanism", "hits": 10,
+      "materials": { "tfc_items:cast_iron_stamen": 4, "siegeworks:rope": 6, "#tfc:lumber": 2, "tfc_items:cast_iron_ring": 1 } }
+  ]
+}

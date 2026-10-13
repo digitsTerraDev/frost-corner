@@ -1,0 +1,17 @@
+{
+  "name": "Elf",
+  "description": "Tall forest people. Very strongly dislikes dwarves",
+  "icon": {
+    "item": "minecraft:oak_sapling"
+  },
+  "impact": 2,
+  "powers": [
+    "neoorigins:elf_tallnessw",
+    "neoorigins:elf_might",
+    "neoorigins:elf_finesse",
+    "neoorigins:elf_endurance",
+    "neoorigins:elf_intelligence",
+    "neoorigins:elf_instinct",
+    "neoorigins:elven_language"
+  ]
+}

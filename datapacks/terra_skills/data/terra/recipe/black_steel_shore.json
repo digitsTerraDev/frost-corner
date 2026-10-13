@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LML",
+    "S S",
+    "LML"
+  ],
+  "key": {
+    "L": {
+      "tag": "tfc:lumber"
+    },
+    "M": {
+      "item": "tfc:metal/rod/black_steel"
+    },
+    "S": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "kubejs:black_steel_shore",
+    "count": 1
+  }
+}
