@@ -63,9 +63,3 @@
 	# Default: 100
 	# Range: 0 ~ 1000000
 	maximumStatValue = 100
-
-[skillTrees]
-	#Available Pufferfish skill trees and their preferred stats.
-	#Format: category_id,primary_stat,secondary_stat
-	#Stats: might, finesse, endurance, intelligence, instinct
-	trees = ["terraskills:warrior,might,endurance", "terraskills:scholar,intelligence,instinct", "terraskills:miner,endurance,instinct"]

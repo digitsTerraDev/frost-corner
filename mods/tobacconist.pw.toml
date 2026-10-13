@@ -1,13 +1,13 @@
 name = "Tobacconist"
-filename = "tobacconistmod-4.0.0-neoforge-1.21.1.jar"
+filename = "tobacconistmod-4.1.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "825cf91b57a003a93d6d2a5cea8c6e9e2d443320"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/67HcuvfL/versions/ufFpyBUA/tobacconistmod-4.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "a68db93f923171001387b3dc568564ed9c95787bc53d87bd9304b2674bfa66e7a5877389cff22a58610ba5ebfc44a365ee7bafc7c5ef6ca2fbbed8d5496e0d4e"
 
 [update]
-[update.curseforge]
-file-id = 8781817
-project-id = 896915
+[update.modrinth]
+mod-id = "67HcuvfL"
+version = "ufFpyBUA"

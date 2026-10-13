@@ -4,9 +4,9 @@
   "enable_mod_equipment_generation": true,
   "fix_zombie_leader_initial_health": false,
   "enable_mob_toughness": true,
-  "always_enable_player_interrupt": true,
+  "always_enable_player_interrupt": false,
   "experimental_illager_undead_hostility": false,
-  "disable_vanilla_left_handed_mobs": true,
+  "disable_vanilla_left_handed_mobs": false,
   "enable_ender_dragon_overhaul": true,
   "enable_wither_overhaul": true,
   "enable_skeleton_body_aim": true,
@@ -27,6 +27,8 @@
   "unperfect_block_window_ticks": 10,
   "combat_min_distance": 1.45,
   "collision_cache_radius": 8.0,
-  "vanilla_attack_weapon_ids": [],
+  "vanilla_attack_weapon_ids": [
+    "minecraft:air"
+  ],
   "vanilla_attack_entity_ids": []
 }

@@ -1,0 +1,11 @@
+{
+  // How a map mod's fullscreen map draws a looped world: REPEATED fills the window with
+  // the world's copies, SINGLE draws one copy and stops panning and zooming out at its
+  // edges. Minimaps always repeat it.
+  // Allowed values: REPEATED, SINGLE.
+  "map_copies": "REPEATED",
+  // Whether a map mod's fullscreen map draws a line at every edge of the world's copies.
+  // Applies to REPEATED alone: SINGLE draws no line.
+  // Allowed values: true, false.
+  "seam_lines": true
+}

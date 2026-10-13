@@ -1,0 +1,13 @@
+name = "Craft & Find"
+filename = "craftandfind-1.1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55771653debd8740991742162114c000d20b669e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9148189
+project-id = 1642905

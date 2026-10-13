@@ -1,0 +1,32 @@
+#Gameplay settings for nearby storage discovery.
+#On multiplayer servers, the server values are used and synchronized to clients.
+[storage]
+	#Maximum distance from the Storage Workbench in which containers are discovered.
+	#The scan uses a three-dimensional radius, so larger values can increase server work.
+	#Recommended: small storage room 8-12, normal storage room 16, large warehouse 24.
+	#Use 32 only for very large storage builds.
+	# Default: 16
+	# Range: 4 ~ 32
+	searchRadius = 16
+	#Maximum number of matching containers that receive highlight effects after a click.
+	#This does not limit storage searching, crafting, or the displayed total item count.
+	#Recommended: weak clients/large servers 32, default 64, showcase builds up to 128.
+	# Default: 64
+	# Range: 1 ~ 128
+	maxHighlightedContainers = 64
+
+#Advanced performance settings.
+#Lower intervals react faster but make the server perform the related work more often.
+#20 game ticks are approximately one second. Most users should keep the defaults.
+[advanced]
+	#How often the workbench performs a full radius scan for placed or removed containers.
+	#Recommended: fast updates 40-60, default 100, large servers 200-400.
+	# Default: 100
+	# Range: 20 ~ 600
+	containerScanIntervalTicks = 200
+	#How often item contents of already discovered containers are refreshed and checked
+	#for a changed storage snapshot.
+	#Recommended: very responsive 10, default 20, large servers 40-60.
+	# Default: 20
+	# Range: 5 ~ 100
+	contentRefreshIntervalTicks = 20

@@ -79,6 +79,12 @@ file = "config/astikorcartsredux-client.toml"
 file = "config/astikorcartsredux-common.toml"
 
 [[files]]
+file = "config/asyncparticles/asyncparticles-mixin.properties"
+
+[[files]]
+file = "config/asyncparticles/asyncparticles.json"
+
+[[files]]
 file = "config/auroras-startup.toml"
 
 [[files]]
@@ -143,6 +149,9 @@ file = "config/chloride-client.json"
 
 [[files]]
 file = "config/chunky/config.json"
+
+[[files]]
+file = "config/cinematiczoom-client.toml"
 
 [[files]]
 file = "config/cirrus-client.json"
@@ -376,6 +385,21 @@ file = "config/configured-client.properties"
 file = "config/connector.json"
 
 [[files]]
+file = "config/contraptionlights-client.toml"
+
+[[files]]
+file = "config/contraptionlights-server.toml"
+
+[[files]]
+file = "config/coopmoves.json"
+
+[[files]]
+file = "config/craftandfind-client.toml"
+
+[[files]]
+file = "config/craftandfind-server.toml"
+
+[[files]]
 file = "config/create-client.toml"
 
 [[files]]
@@ -496,6 +520,9 @@ file = "config/epicknights/shields.json5"
 file = "config/epicknights/weapons.json5"
 
 [[files]]
+file = "config/exotic_worlds.json"
+
+[[files]]
 file = "config/exposure-client.toml"
 
 [[files]]
@@ -503,6 +530,9 @@ file = "config/exposure-common.toml"
 
 [[files]]
 file = "config/exposure-server.toml"
+
+[[files]]
+file = "config/f3-backport-client.toml"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
@@ -649,24 +679,6 @@ file = "config/historystages/global/_exampleStage.json"
 file = "config/historystages/individual/Smith/Smith0.json"
 
 [[files]]
-file = "config/historystages/logs/debug-2026-10-11_16-09-28.log"
-
-[[files]]
-file = "config/historystages/logs/debug-2026-10-11_17-11-14.log"
-
-[[files]]
-file = "config/historystages/logs/debug-2026-10-11_18-55-19.log"
-
-[[files]]
-file = "config/historystages/logs/debug-2026-10-11_22-24-28.log"
-
-[[files]]
-file = "config/historystages/logs/debug-2026-10-11_22-53-03.log"
-
-[[files]]
-file = "config/historystages/logs/debug-2026-10-11_22-58-43.log"
-
-[[files]]
 file = "config/historystages/logs/debug-2026-10-11_23-07-18.log"
 
 [[files]]
@@ -677,6 +689,24 @@ file = "config/historystages/logs/debug-2026-10-12_00-59-37.log"
 
 [[files]]
 file = "config/historystages/logs/debug-2026-10-12_01-04-37.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-12_06-47-18.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-12_18-50-20.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-13_07-58-27.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-13_15-34-10.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-13_16-25-32.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-13_18-54-11.log"
 
 [[files]]
 file = "config/historystages/settings/gameplay.toml"
@@ -713,12 +743,6 @@ file = "config/iris-excluded.json"
 
 [[files]]
 file = "config/iris.properties"
-
-[[files]]
-file = "config/irons_artifice-client.toml"
-
-[[files]]
-file = "config/irons_artifice-server.toml"
 
 [[files]]
 file = "config/item-restrictions-common.yaml"
@@ -1027,15 +1051,6 @@ file = "config/precision-prospecting.toml"
 file = "config/puffish_skills/config.json"
 
 [[files]]
-file = "config/purescale-modern.json"
-
-[[files]]
-file = "config/purescale-support-avatar.png"
-
-[[files]]
-file = "config/purescale-support.properties"
-
-[[files]]
 file = "config/rechanted-common.toml"
 
 [[files]]
@@ -1052,9 +1067,6 @@ file = "config/reliable_remover/removal_example.json.disabled"
 
 [[files]]
 file = "config/remains-client.toml"
-
-[[files]]
-file = "config/remains-common-1.toml.bak"
 
 [[files]]
 file = "config/remains-common.toml"
@@ -1148,6 +1160,9 @@ file = "config/terrafactions-server.toml"
 
 [[files]]
 file = "config/terraskills-client.toml"
+
+[[files]]
+file = "config/terraskills-server-1.toml.bak"
 
 [[files]]
 file = "config/terraskills-server.toml"
@@ -1259,6 +1274,9 @@ file = "config/tobacconistmod-client.toml"
 
 [[files]]
 file = "config/tobacconistmod-common.toml"
+
+[[files]]
+file = "config/tobacconistmod-server-1.toml.bak"
 
 [[files]]
 file = "config/tobacconistmod-server.toml"
@@ -2137,6 +2155,9 @@ file = "kubejs/package.json"
 file = "kubejs/server_scripts/frost/anvil.js"
 
 [[files]]
+file = "kubejs/server_scripts/frost/hide.js"
+
+[[files]]
 file = "kubejs/server_scripts/frost/metal_properties.js"
 
 [[files]]
@@ -2281,6 +2302,10 @@ file = "mods/astikorcarts-redux.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/asyncparticles.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/atlas-api.pw.toml"
 metafile = true
 
@@ -2353,6 +2378,10 @@ file = "mods/chunky.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cinematic-zoom.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cirrus.pw.toml"
 metafile = true
 
@@ -2378,6 +2407,10 @@ metafile = true
 
 [[files]]
 file = "mods/corals-tfc.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/craft-find.pw.toml"
 metafile = true
 
 [[files]]
@@ -2414,10 +2447,6 @@ metafile = true
 
 [[files]]
 file = "mods/create-train-physics.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-vintage-(unofficial-port).pw.toml"
 metafile = true
 
 [[files]]
@@ -2473,6 +2502,10 @@ file = "mods/effect-insights.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/enchantment-infusion.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/engineered-schematics.pw.toml"
 metafile = true
 
@@ -2494,6 +2527,10 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/f3-backport.pw.toml"
 metafile = true
 
 [[files]]

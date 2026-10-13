@@ -16,7 +16,7 @@
 [blending]
 	#Hidden named tobacco blends with exact per-variety requirements.
 	#Format: Display Name=variety|minQuality|cure|flavor+variety|minQuality|cure|flavor[+...]
-	#Quality is a minimum (0-120). Cure: air, fire, sun, flue, or * for any.
+	#Quality is a minimum (0-120). Cure accepts any stored cure id (air, fire, haunted, latakia, etc.) or * for any.
 	#Flavor: none, *, or a flavor id such as apple, chorus_fruit, coffee, vanilla, or mint.
 	#Order does not matter. Legacy fonted and variety-only entries remain accepted for migration.
 	#Valid varieties: wild, virginia, burley, oriental, dokha, shade.
@@ -36,3 +36,15 @@
 	#Threshold is the number of puffs/draws before the reward triggers, after which that blend's counter resets.
 	#Example: Crown & Ember=3|minecraft:fire_resistance,180,0;minecraft:strength,120,0
 	secretBlendBonuses = ["Last Harvest=3|minecraft:absorption,160,0;minecraft:luck,200,0", "Crown & Ember=3|minecraft:fire_resistance,180,0;minecraft:strength,120,0", "Mint Condition=3|minecraft:speed,180,0;minecraft:jump_boost,140,0", "Blue Hour=3|minecraft:night_vision,220,0;minecraft:slow_falling,120,0"]
+
+[smoking_effects]
+	#Conditional effects applied on every puff, based on the tobacco being smoked.
+	#Format: condition|condition -> effect_id,duration,amplifier;effect_id,duration,amplifier
+	#Every matching rule is applied. A rule without conditions matches every smoke.
+	#Conditions: filler, wrapper, blend, blended, fermented, minQuality, maxQuality, minAgedDays, maxAgedDays.
+	#filler/wrapper match when the tobacco name contains the text; for blends, any component variety counts.
+	#blend matches a secret blend name from the blending section; blended=true matches any blend.
+	#Quality is 0-120, duration is in ticks (20 = 1 second), amplifier 0 = level I.
+	#Example: filler=burley|minQuality=90|fermented=true -> minecraft:speed,400,0;minecraft:haste,200,0
+	#Example: blend=Black Orchard|minAgedDays=90 -> minecraft:night_vision,600,0
+	effectRules = []
